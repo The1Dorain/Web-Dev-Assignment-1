@@ -1,3 +1,4 @@
+// the code file that holds the Projects page code
 export default function Projects() {
   return (
     <>

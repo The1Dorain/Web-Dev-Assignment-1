@@ -7,6 +7,7 @@ import Education from "./components/Education";
 import Services from "./components/Services";
 import Contact from "./components/Contact";
 
+// Directs the user around the website and shows the corresponding data
 const MainRouter = () => {
   return (
     <>

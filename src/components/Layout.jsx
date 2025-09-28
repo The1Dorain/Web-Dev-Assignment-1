@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 
+// the code file that holds the Navigation section of the website
 export default function Layout() {
   return (
     <>

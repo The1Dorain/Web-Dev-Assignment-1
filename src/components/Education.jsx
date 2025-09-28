@@ -1,3 +1,4 @@
+// the code file that holds the Education page code
 export default function Education() {
   return (
     <>

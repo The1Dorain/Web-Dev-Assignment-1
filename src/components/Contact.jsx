@@ -3,7 +3,7 @@ export default function Contact() {
   return (
     <>
       <h1>Contact Me</h1>
-      <form action="/" method="post">
+      <form action="/">
         <label htmlFor="firstName">First Name: </label>
         <input type="text" name="firstName" />
         <br />
