@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 
+// the component that writes the home page content to the screen
 export default function Home() {
   return (
     <>
