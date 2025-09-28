@@ -12,6 +12,7 @@ export default function Layout() {
         <Link to="/services">Services</Link> |{" "}
         <Link to="/contact">Contact</Link>
       </nav>
+      <br />
     </>
   );
 }
