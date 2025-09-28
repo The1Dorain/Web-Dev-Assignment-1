@@ -9,7 +9,6 @@ export default function About() {
         src="src/images/Headshot.jpg"
         alt="Headshot of Dorian in a blue suit"
         width="280"
-        height="300"
       />
       <br />
       <br />

@@ -2,6 +2,7 @@ import { Routes, Route } from "react-router-dom";
 import Layout from "./components/Layout";
 import Home from "./components/Home";
 import About from "./components/About";
+import Projects from "./components/Projects";
 
 const MainRouter = () => {
   return (
@@ -10,7 +11,7 @@ const MainRouter = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/projects" element={<div>Home Page</div>} />
+        <Route path="/projects" element={<Projects />} />
         <Route path="/education" element={<div>Home Page</div>} />
         <Route path="/services" element={<div>Home Page</div>} />
         <Route path="/contact" element={<div>Home Page</div>} />
