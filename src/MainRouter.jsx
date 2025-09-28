@@ -4,6 +4,8 @@ import Home from "./components/Home";
 import About from "./components/About";
 import Projects from "./components/Projects";
 import Education from "./components/Education";
+import Services from "./components/Services";
+import Contact from "./components/Contact";
 
 const MainRouter = () => {
   return (
@@ -14,8 +16,8 @@ const MainRouter = () => {
         <Route path="/about" element={<About />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/education" element={<Education />} />
-        <Route path="/services" element={<div>Home Page</div>} />
-        <Route path="/contact" element={<div>Home Page</div>} />
+        <Route path="/services" element={<Services />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </>
   );

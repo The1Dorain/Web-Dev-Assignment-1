@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 
+// the code file that holds the About page code
 export default function About() {
   return (
     <>
